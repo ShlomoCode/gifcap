@@ -18,13 +18,13 @@ export default class StartView implements m.ClassComponent<StartViewAttrs> {
 
   view() {
     return m(View, [
-      m("p", "Create animated GIFs from a screen recording."),
-      m("p", "Client-side only, no data is uploaded. Modern browser required."),
-      isMobile ? m("p", "Sorry, mobile does not support screen recording.") : undefined,
+      m("p", "יצירת קובצי GIF מונפשים מהקלטת מסך."),
+      m("p", "פועל מקומית בדפדפן שלך, אף נתון לא נשלח לשרת."),
+      isMobile ? m("p", "מצטערים, מכשירים ניידים אינם תומכים בהקלטת מסך.") : undefined,
       isMobile
         ? undefined
         : m(Button, {
-            label: "Start Recording",
+            label: "התחל הקלטה",
             icon: "play",
             onclick: () => this.app.startRecording(),
             primary: true,

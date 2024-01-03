@@ -81,7 +81,7 @@ export default class RenderView implements m.ClassComponent<RenderViewAttrs> {
   view() {
     const actions = [
       m(Button, {
-        label: "Cancel",
+        label: "ביטול",
         icon: "square-fill",
         onclick: () => this.app.cancelRendering(),
       }),

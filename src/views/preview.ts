@@ -187,7 +187,7 @@ export default class PreviewView implements m.ClassComponent<PreviewViewAttrs> {
         ),
       ]),
       m(Button, {
-        label: "Render",
+        label: "עיבוד",
         icon: "gear",
         onclick: () => this.startRendering(),
         primary: true,

@@ -79,17 +79,17 @@ class Main implements App {
                   alt: "GitHub",
                   src: "https://icongr.am/material/coffee.svg?size=18&color=9e9e9e",
                 }),
-                " Like the tool? Sponsor me!",
+                " אוהב את הכלי? תמוך בי!",
               ]
             ),
           ]),
           m("span.right", [
-            "Made with ",
+            "נוצר עם ",
             m("img", {
               alt: "love",
               src: "https://icongr.am/octicons/heart.svg?size=18&color=9e9e9e",
             }),
-            " by ",
+            " על ידי ",
             m("a", { href: "https://github.com/joaomoreno" }, ["João Moreno"]),
           ]),
         ]),
@@ -151,7 +151,7 @@ class Main implements App {
   }
 
   discardGif() {
-    if (!window.confirm("This will discard the current recording, are you sure you want to continue?")) {
+    if (!window.confirm("פעולה זו תמחק את ההקלטה הנוכחית, האם אתה בטוח שברצונך להמשיך?")) {
       return;
     }
 
