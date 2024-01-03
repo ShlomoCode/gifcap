@@ -90,7 +90,7 @@ export default class RecordView implements m.ClassComponent<RecordViewAttrs> {
           }),
         ]),
         m(Button, {
-          label: "Stop Recording",
+          label: "עצור הקלטה",
           icon: "square-fill",
           onclick: () => this.stopRecording(),
         }),

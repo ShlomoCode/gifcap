@@ -40,7 +40,7 @@ export default class PlayView implements m.ClassComponent<PlayViewAttrs> {
 
     const actions = [
       m(Button, {
-        label: "Download",
+        label: "הורדה",
         icon: "download",
         a: {
           href: this.gif.url,
@@ -50,12 +50,12 @@ export default class PlayView implements m.ClassComponent<PlayViewAttrs> {
         primary: true,
       }),
       m(Button, {
-        label: "Edit",
+        label: "עריכה",
         icon: "pencil",
         onclick: () => this.app.editGif(),
       }),
       m(Button, {
-        label: "Discard",
+        label: "להשליך",
         icon: "trashcan",
         onclick: () => this.app.discardGif(),
       }),
