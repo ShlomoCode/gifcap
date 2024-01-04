@@ -1,4 +1,4 @@
-importScripts('/encoder/encoder.js');
+importScripts('/gifcap/encoder/encoder.js');
 
 let initialized = false;
 const frames = [];

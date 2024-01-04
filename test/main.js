@@ -69,7 +69,7 @@ function testRequestAnimationFrame() {
 
 function testWorker() {
   return new Promise(c => {
-    const worker = new Worker('worker.js');
+    const worker = new Worker('/gifcap/worker.js');
     const result = [];
     let timestamp = Date.now();
 
