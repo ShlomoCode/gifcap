@@ -79,7 +79,7 @@ class Main implements App {
                   alt: "GitHub",
                   src: "https://icongr.am/material/coffee.svg?size=18&color=9e9e9e",
                 }),
-                " אוהב את הכלי? תמוך בי!",
+                " אהבת את הכלי? תמוך בי!",
               ]
             ),
           ]),
