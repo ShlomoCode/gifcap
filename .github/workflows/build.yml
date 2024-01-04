@@ -49,8 +49,8 @@ jobs:
           path: .
       - name: Publish
         run: |
-          git config --global user.name 'João Moreno'
-          git config --global user.email 'joaomoreno@users.noreply.github.com'
+          git config --global user.name 'pages-bot'
+          git config --global user.email 'no-reply@github.com'
           git add .
           git commit -m 'publish gh-pages'
           git push
